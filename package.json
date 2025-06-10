@@ -19,7 +19,7 @@
   "private": true,
   "description": "sistema de gerenciamento de grãos do Brasil",
   "type": "module",
-  "devDependencies": {
+ "devDependencies": {
     "@eslint/js": "^9.26.0",
     "eslint": "^9.26.0",
     "globals": "^16.0.0",
@@ -27,18 +27,10 @@
     "sequelize-cli": "^6.6.3",
     "sucrase": "^3.35.0"
   },
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mysql2": "^4.0.0",
-    "sequelize": "^6.37.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daniel86767/node-backend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/daniel86767/node-backend/issues"
-  },
-  "homepage": "https://github.com/daniel86767/node-backend#readme"
+ "dependencies": {
+  "dotenv": "^16.5.0",
+  "express": "^5.1.0",
+  "mysql2": "^3.3.4",
+  "sequelize": "^6.37.0"
+}
 }
